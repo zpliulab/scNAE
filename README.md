@@ -1,4 +1,4 @@
-#scNAE: A regularized constraint programming method reveals significant gene regulatory network architectures from dynamic scRNA-seq data during SARS-CoV-2 viral in-fection#
+# scNAE: A regularized constraint programming method reveals significant gene regulatory network architectures from dynamic scRNA-seq data during SARS-CoV-2 viral in-fection #
 
 
 **scNAE will be detailed if the manuscript is accepted!**
