@@ -29,7 +29,7 @@ for celltype = 1:num_cell
     number = 1000;
    %% rewire
     tic;
-    [adjlist,bug] = rewire(adj,number,1);    
+    [adjlist,bug] = rewire(adj,number,2);    
     if bug == 1
        fprintf('The %s dataset is deleted because the network structure is too simple.\n', num2str(q));
     end
