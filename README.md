@@ -26,9 +26,10 @@ Computer Environment [![MATLAB](https://img.shields.io/badge/MATLAB-R2022a-green
 Run the following code in the R environment
 - demo.m (Note that "simu_data_302.mat" in the simulated data is assumed to have 30 genes and 2 cell clusters. Other data are named similarly.)
 - demo_SARS-CoV-2.m
-- 
+  
 ## Use scNAE on a new dataset
 The core interface function of scNAE is code\refer_scNAE.m
+
 ```[newgra,obj,opt] = refer_scNAE(data,network,Lp,parameter);```
 
 	Input:
