@@ -32,7 +32,9 @@ The core interface function of scNAE is code\refer_scNAE.m
 ```[newgra,obj,opt] = refer_scNAE(data,network,Lp,parameter);```
 
 	Input:
-	  data : A structure variable containing the original value and the differential value, *data.orig* represents the gene expression profile of the time series; *data.fit* represents the corresponding differential value;
+	  data : A structure variable containing the original value and the differential value, 
+   		 *data.orig* represents the gene expression profile of the time series; 
+      		 *data.fit* represents the corresponding differential value;
 	  network:   An (m*m) adjacency matrix
 	  Lp:   the Lp-norm type used, p can be selected {0, 0~1, 2}
       parameter： *parameter* is a structure, where 'parameter.i' is the regularization parameter that must be set., e.g: parameter.i=1e-6 ~ 1e2
