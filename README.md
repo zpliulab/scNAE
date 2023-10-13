@@ -21,7 +21,8 @@ Computer Environment [![MATLAB](https://img.shields.io/badge/MATLAB-R2022a-green
 - **simu_data: simulation datasets.** (Note that "simu_data_302.mat" in the simulated data is assumed to have 30 genes and 2 cell clusters. Other data are named similarly.)
 - **Supplementary**
 - **demo.m: run the simulation example**
-- 
+- **demo_SARS.m: run the SARS-CoV-2 example**
+  
 ## Run the code
 Run the following code in the Matlab environment
 - demo.m 
