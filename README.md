@@ -17,6 +17,7 @@ Computer Environment [![MATLAB](https://img.shields.io/badge/MATLAB-R2022a-green
 
 ## Files:
 - **code: subfunction used in the scNAE process.**
+- **data: All processed SARS-CoV-2 data are divided according to pathways, including original values, differential values and networks.Please unzip before use it.**
 - **result: save results.**
 - **simu_data: simulation datasets.** (Note that "simu_data_302.mat" in the simulated data is assumed to have 30 genes and 2 cell clusters. Other data are named similarly.)
 - **Supplementary**
