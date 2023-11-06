@@ -19,11 +19,11 @@ for celltype = 1:num_cell
          else
             exist1 = 0;
          end
-          %% 数据处理
+          %% Data preprocessing
          if size(adj,1)<4 && exist1 == 1
-                fprintf('第 %s 个数据集因基因节点太少而删除\n', num2str(q));
+                fprintf('The %s th data set was deleted due to too few gene nodes.\n', num2str(q));
          elseif size(adj,1)>1000 && exist1 == 1
-                fprintf('第 %s 个数据集因基因节点太多而跳过\n', num2str(q));
+                fprintf('Data set %s skipped due to too many gene nodes.\n', num2str(q));
          else
             dat.orig = datan{celltype,1};
             dat.fit = datan{celltype,2};
@@ -33,7 +33,7 @@ for celltype = 1:num_cell
             tic;
             [adjlist,bug] = rewire(adj,number);    
             if bug == 1
-               fprintf('第 %s 个数据集因网络结构单一而删除\n', num2str(q));
+               fprintf('The %s th data set was deleted due to a single network structure.\n', num2str(q));
             else
             newadjlist = cell(number,1);
             newobj=zeros(number,1);
@@ -58,7 +58,7 @@ for celltype = 1:num_cell
             end
             t = toc;
             [a1,b1]=min(result(q,:));
-            fprintf('第 %s 个数据集,第 %s 个细胞类型,p值为 %s，参数为 i = %s. \n', num2str(q), num2str(celltype),num2str(a1),num2str(b1));
+            fprintf('The %s th data set, the %s th cell type, pvalue = %s, and the parameter i = %s. \n', num2str(q), num2str(celltype),num2str(a1),num2str(b1));
             result_type{celltype,1} = result;
             end
         end

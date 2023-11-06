@@ -7,7 +7,7 @@
 
 **Please cite our paper if it helps you.**
 
-![workfolw](https://github.com/zpliulab/scNAE/blob/main/Supplementary/single%20cell.jpg)
+![workfolw](https://github.com/zpliulab/scNAE/blob/main/Supplementary/Fig.1.pdf)
 
 Computer Environment [![MATLAB](https://img.shields.io/badge/MATLAB-R2022a-green.svg "MATLAB")](https://ww2.mathworks.cn/products/matlab.html "MATLAB"):
 -
