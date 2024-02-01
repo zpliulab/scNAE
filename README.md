@@ -1,7 +1,7 @@
 # scNAE: Network activity evaluation reveals significant gene regulatory architectures during SARS-CoV-2 viral infec-tion from dynamic scRNA-seq data #
 
 
-**scNAE will be detailed if the manuscript is accepted!**
+**scNAE has been published in IEEE JBHI [https://ieeexplore.ieee.org/document/10417126/authors#authors](https://ieeexplore.ieee.org/document/10417126/authors#authors)!!**
 
 **Please write to [zpliu@sdu.edu.cn](mailto:zpliu@sdu.edu.cn) if you have any questions.**
 
